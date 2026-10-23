@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1e293b;
-    background: #f8fafc;
+    color: #000000;
+    background: #3c275a;
     line-height: 1.6;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .menu{ display: flex; gap: 1rem; }
 .menu a{
-    color: #e2e8f0;
+    color: #e2d8ff;
     text-decoration: none;
     font-weight: 600;
     padding: 0.3rem o.6rem;
@@ -36,7 +36,7 @@ body {
 
 .menu a:hover{background: #334155;}
 .menu a.ativo{
-    background: linear-gradient(90deg, #7c3aed, #06b6d4);
+    background: linear-gradient(90deg, #8549f5, #8330a1);
 }
 
 /*--------Conteúdo-------*/
@@ -50,7 +50,7 @@ main{
 .hero{
     text-align: center;
     padding: 3rem 1rem;
-    background: linear-gradient(160deg, #7c3aed, #06b6d4);
+    background: linear-gradient(160deg, #613d86, #630fb7);
     color: #fff;
     border-radius: 16px;
 }
@@ -76,7 +76,7 @@ main{
     cursor: pointer;
 }
 
-.botao:hover{transform: scale(1.05);}
+.card:hover{transform: scale(1.05);}
 
 /* cards */
 
@@ -85,28 +85,35 @@ main{
     gap: 1rem;
     flex-wrap: wrap;
     margin-top: 2rem;
+    color: #fff;
 }
 
 .card {
     flex: 1 1 220px;
-    background: #fff;
-    border: 1px solid #e2e8f0;
+    background: #4b0060;
+    border: 1px solid #8830bb;
     border-radius: 14px;
     padding: 1.3rem;
-    box-shadow: 0 6px 18px rgb(0, 0, 0, 0.05);
+    box-shadow: 0 6px 18px rgba(201, 4, 4, 0.05);
 }
 
 .card h2 {margin-bottom: 0.4rem; font-family: 1.1rem;}
 
+.card img{
+    width: 220px;
+    height: 220px;
+}
+
 .conteudo {
-    background: #fff;
+    background: #510051;
     border: 1px solid #e2e8f0;
     border-radius: 14px;
     padding: 1.6rem;
 }
-.conteudo h1 { margin-bottom: 0.6rem;}
-.conteudo h2 { margin: 1rem 0 0.4rem;}
-.conteudo ul { margin-left: 1.2rem;}
+.conteudo h1 { margin-bottom: 0.6rem; color: #fff;}
+.conteudo h2 { margin: 1rem 0 0.4rem; color: #fff;}
+.conteudo ul { margin-left: 1.2rem; color: #fff;}
+.conteudo p { margin: 1rem 0 0.4rem; color: #fff;}
 
 /*Formulário*/
 .form{ margin-top: 1rem;}
@@ -114,6 +121,7 @@ main{
     display: block;
     font-weight: 600;
     margin-bottom: 0.3rem;
+    color: #fff;
 }
 .campo input, .campo textarea{
     width: 100%;
@@ -131,7 +139,7 @@ main{
 .rodape{
     text-align: 1.5rem;
     padding: 1.5rem;
-    color: #64748b;
+    color: #ffffff;
     font-size: 0.85rem;
     margin-top: 2rem;
 }
